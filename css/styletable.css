@@ -1,0 +1,156 @@
+/* Basic page styling */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 20px auto;
+}
+
+
+/* Table styling */
+
+.table-responsive {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #0b3cc1;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    height: 40vh;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 12px;
+}
+
+.table th {
+    background-color: #0b3cc1;
+    color: white;
+    top: 0;
+    z-index: 1;
+}
+
+.table td {
+    background-color: white;
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 200px;
+    /* يمكنك تعديل هذا العرض حسب الحاجة */
+}
+
+.table th:first-child,
+.table td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.table th:last-child,
+.table td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.table-hover tbody tr:hover td {
+    background-color: #f1f1f1;
+}
+
+
+/* Button styling */
+
+.btn {
+    margin: 0 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+
+/* Basic page styling */
+
+
+/* Navbar styling */
+
+.navbar {
+    padding: 1rem;
+    background-color: #0b3cc1;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.navbar h1:hover {
+    color: #adb5bd;
+}
+
+
+/* Button styling */
+
+.btn {
+    padding: 0.5rem 1rem;
+    margin: 0 5px;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    width: 80px;
+    /* Adjust the width as needed */
+    text-align: center;
+}
+
+
+/* Danger Button */
+
+.btn-danger {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+}
